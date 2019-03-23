@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:dev": "rollup -c config/dev.js",
     "build": "rollup -c config/prod.js",
-    "browse": "browser-sync start --s --ss dist --index html/index-dev.html --files dist/**/*.html,dist/**/*.js"
+    "browse": "browser-sync start --s --ss dist --index html/index-dev.html --files dist/**/*.html,dist/**/*.js",
+    "start": "npm-run-all --parallel build:dev browse"
   },
   "repository": {
     "type": "git",
