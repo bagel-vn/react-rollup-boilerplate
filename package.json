@@ -4,9 +4,9 @@
   "description": "Minimal React Rollup boilerplate for building admin page.",
   "main": "",
   "scripts": {
-    "build:dev": "/node_modules/.bin/rollup -c config/dev.js",
-    "build": "/node_modules/.bin/rollup -c config/prod.js",
-    "browse": "/node_modules/.bin/browser-sync start --s --ss dist --index html/index-dev.html --files dist/**/*.html,dist/**/*.js",
+    "build:dev": "./node_modules/.bin/rollup -c config/dev.js",
+    "build": "./node_modules/.bin/rollup -c config/prod.js",
+    "browse": "./node_modules/.bin/browser-sync start --s --ss dist --index html/index-dev.html --files dist/**/*.html,dist/**/*.js",
     "start": "npm-run-all --parallel build:dev browse"
   },
   "repository": {
