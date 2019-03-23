@@ -22,4 +22,17 @@ npm i --save-dev rollup
 npm i --save-dev rollup-plugin-node-resolve
 npm i --save-dev rollup-plugin-commonjs
 npm i --save-dev rollup-plugin-uglify
+npm i --save-dev rollup-plugin-replace
+npm i --save-dev babel@core
+npm i --save-dev rollup-plugin-babel@latest
+npm i --save-dev @babel/preset-env
+npm i --save-dev @babel/preset-react
+npm i --save-dev browser-sync
+npm i --save-dev npm-run-all
+```
+
+## Build React app
+```
+npm run build:dev
+npm run build
 ```
