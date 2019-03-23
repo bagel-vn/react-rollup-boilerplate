@@ -41,3 +41,7 @@ npm run build
 ```
 npm start
 ```
+
+
+## References
+https://github.com/yamafaktory/babel-react-rollup-starter
