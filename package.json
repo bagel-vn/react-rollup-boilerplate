@@ -4,6 +4,7 @@
   "description": "Minimal React Rollup boilerplate for building admin page.",
   "main": "",
   "scripts": {
+    "build": "./node_modules/.bin/rollup -c"
   },
   "repository": {
     "type": "git",
