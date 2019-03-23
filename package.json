@@ -1,0 +1,36 @@
+{
+  "name": "react-rollup-boilerplate",
+  "version": "1.0.0",
+  "description": "Minimal React Rollup boilerplate for building admin page.",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bagel-vn/react-rollup-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "rollup",
+    "boilerplate"
+  ],
+  "author": "Seungjae Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bagel-vn/react-rollup-boilerplate/issues"
+  },
+  "homepage": "https://github.com/bagel-vn/react-rollup-boilerplate#readme",
+  "devDependencies": {
+    "rollup": "^1.7.0",
+    "rollup-plugin-commonjs": "^9.2.1",
+    "rollup-plugin-node-resolve": "^4.0.1",
+    "rollup-plugin-uglify": "^6.0.2"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "lodash": "^4.17.11",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5"
+  }
+}
