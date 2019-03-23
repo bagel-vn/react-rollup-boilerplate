@@ -4,7 +4,10 @@
   "description": "Minimal React Rollup boilerplate for building admin page.",
   "main": "",
   "scripts": {
-    "build": "./node_modules/.bin/rollup -c"
+    "build:dev": "/node_modules/.bin/rollup -c config/dev.js",
+    "build": "/node_modules/.bin/rollup -c config/prod.js",
+    "browse": "/node_modules/.bin/browser-sync start --s --ss dist --index html/index-dev.html --files dist/**/*.html,dist/**/*.js",
+    "start": "npm-run-all --parallel build:dev browse"
   },
   "repository": {
     "type": "git",
@@ -22,9 +25,16 @@
   },
   "homepage": "https://github.com/bagel-vn/react-rollup-boilerplate#readme",
   "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "browser-sync": "^2.26.3",
+    "npm-run-all": "^4.1.5",
     "rollup": "^1.7.0",
+    "rollup-plugin-babel": "^4.3.2",
     "rollup-plugin-commonjs": "^9.2.1",
     "rollup-plugin-node-resolve": "^4.0.1",
+    "rollup-plugin-replace": "^2.1.1",
     "rollup-plugin-uglify": "^6.0.2"
   },
   "dependencies": {
