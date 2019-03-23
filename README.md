@@ -36,3 +36,8 @@ npm i --save-dev npm-run-all
 npm run build:dev
 npm run build
 ```
+
+## Run React app
+```
+npm start
+```
